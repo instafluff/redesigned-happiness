@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Timer</title>
+    <link rel="manifest" href="/manifest.json">
+    <script src="/app.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #time {
+            font-size: 48px;
+            margin-top: 20px;
+        }
+        button, select {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercise Timer</h1>
+    <div id="app">
+        <select id="sequenceSelector">
+            <option value="">Select a sequence</option>
+        </select>
+        <button id="startSequenceButton">Start Sequence</button>
+        <div id="time">00:00</div>
+        <div id="exerciseName"></div>
+    </div>
+</body>
+</html>
